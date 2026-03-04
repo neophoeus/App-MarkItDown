@@ -14,7 +14,9 @@ Powered by Microsoft's `markitdown` and enhanced with **Google Gemini** for mult
 ### ✨ Features
 
 - **Universal Support**: Convert PDF, DOCX, XLSX, PPTX, and various image formats to Markdown.
-- **AI-Enhanced**: Built-in integration with Google Gemini AI to analyze and extract text from images and presentation slides.
+- **URL to Markdown**: Simply paste a URL to automatically fetch and convert web pages into clean Markdown.
+- **AI-Enhanced Conversion**: Built-in integration with Google Gemini AI to analyze and extract text from images and presentation slides during conversion.
+- **AI Post-Processing Toolset**: After conversion, use Gemini to automatically generate summaries, translate content, polish formatting, or rebuild complex tables with a single click.
 - **User-Friendly Web UI**: Easy-to-use Gradio web interface. No CLI commands required.
 - **Local Output**: Your files are processed locally and saved cleanly in a dedicated `output` folder.
 - **One-Click Startup**: Includes a batch script that automatically sets up the Python virtual environment, installs dependencies, and launches the app.
@@ -55,7 +57,9 @@ You can provide your Gemini API Key in two ways:
 ### ✨ 特色功能
 
 - **全格式支援**：一鍵轉換 PDF、DOCX、XLSX、PPTX 及多種圖片格式為 Markdown。
+- **URL 轉 Markdown**：直接貼上網頁連結，自動抓取網頁內容並轉換為乾淨的 Markdown 格式。
 - **AI 視覺增強**：內建 Google Gemini 整合，能自動分析並提取圖片及簡報文件中的隱含文字與描述。
+- **AI 後製工坊**：轉換完成後，可一鍵讓 Gemini 為您產生摘要、雙語翻譯、重新排版潤稿、或精準重建複雜表格。
 - **優雅的網頁介面**：使用 Gradio 打造的 Web UI，操作直覺，免敲指令即可輕鬆使用。
 - **本地端處理**：檔案於本地端轉換，轉出的檔案會整齊歸檔於 `output` 資料夾中。
 - **一鍵啟動**：內建 `start.bat` 啟動腳本，完全自動化建置虛擬環境與安裝依賴套件。
